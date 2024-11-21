@@ -191,38 +191,10 @@ section {
     h2,
     .text {
         text-align: left;
+        margin-left: 10px;
     }
 
     h1::after {
-        margin-left: 0;
-    }
-
-    .main {
-        color: purple;
-    }
-
-    .sluzby,
-    .delegaty {
-        flex: 0 0 calc(100% - 490px);
-    }
-
-    .delegaty-content,
-    .kancelar-content {
-        flex-shrink: 0;
-        flex-grow: 0;
-    }
-
-    .text {
-        max-width: 430px;
-        margin-inline: 0;
-    }
-
-    ul {
-        display: flex;
-    }
-
-    .tlacitko,
-    .tlacitko1 {
         margin-left: 0;
     }
 }
